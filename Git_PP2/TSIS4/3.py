@@ -1,0 +1,6 @@
+s = input()
+list1 = s.split()
+s2 = (int(i) for i in input().split())
+print(type(s))
+print(type(list1))
+print(type(s2))
